@@ -1,0 +1,316 @@
+@media screen and (max-width: 700px){
+
+    .navbar{
+        flex-direction: column;
+    }
+    .left{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        justify-content: center;
+        padding-right: 0vw;
+    }
+    .con-left h2 {
+        font-family: 'Padauk', sans-serif;
+        font-size: 1.5rem;
+    }
+    .con-left p {
+        font-family: 'Mali', cursive;
+        font-size: 1rem;
+    }
+    .con-right {
+        display: none;
+    }
+
+    .article{
+        overflow: hidden;
+        padding-bottom: 10vw;
+    }
+    .article h2{
+        font-size: 5vw;
+    }
+
+    /* Box1 */
+    .box{
+        display: flex;
+        height: 0px 0px;
+        padding: 1vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8vw;
+    }
+
+    .box img {
+        width: 25vw;
+    }
+
+    .boxtext{
+        align-items: center;
+    }
+    .boxtext p{
+        font-size: 2.5vw;
+    }
+
+    .boxtext h3{
+        font-size: 4vw;
+    }
+
+    /* Box2 */
+    .box0{
+        display: flex;
+        height: 0px 0px;
+        padding: 1vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15vw;
+    }
+    .box0 img {
+        width: 25vw;
+    }
+    .boxtext0{
+        align-items: center;
+    }
+    .boxtext0 p{
+        font-size: 2.5vw;
+    }
+
+    .boxtext0 h3{
+        font-size: 4vw;
+    }
+
+    /* Box3 */
+    .box1{
+        display: flex;
+        height: 0px 0px;
+        padding: 1vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15vw;
+    }
+    .box1 img {
+        width: 25vw;
+    }
+    .boxtext1{
+        align-items: center;
+    }
+    .boxtext1 p{
+        font-size: 2.5vw;
+    }
+
+    .boxtext1 h3{
+        font-size: 4vw;
+    }
+
+    /* Box4 */
+    .box2{
+        display: flex;
+        height: 0px 0px;
+        padding: 1vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15vw;
+    }
+    .box2 img {
+        width: 25vw;
+    }
+    .boxtext2{
+        align-items: center;
+    }
+    .boxtext2 p{
+        font-size: 2.5vw;
+    }
+
+    .boxtext2 h3{
+        font-size: 4vw;
+    }
+
+    .foot{
+        height: 4vh;
+    }
+
+    .foot span{
+        font-size: 2vw;
+    }
+
+    .foot p{
+        font-size: 2vw;
+    }
+
+    /* Article Page Edit */
+
+    /* Box4 */
+    .box3{
+        display: flex;
+        height: 0px 0px;
+        padding: 1vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 18vw;
+    }
+    .box3 img {
+        width: 25vw;
+    }
+    .boxtext2{
+        align-items: center;
+    }
+    .boxtext2 p{
+        font-size: 2.5vw;
+    }
+
+    .boxtext2 h3{
+        font-size: 4vw;
+    }
+
+    /* Box5 */
+    .box4{
+        display: flex;
+        height: 0px 0px;
+        padding: 1vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20vw;
+    }
+    .box4 img {
+        width: 25vw;
+    }
+    .boxtext4{
+        align-items: center;
+    }
+    .boxtext4 p{
+        font-size: 2.5vw;
+    }
+
+    .boxtext4 h3{
+        font-size: 4vw;
+    }
+
+    /* Box6 */
+    .box5{
+        display: flex;
+        height: 0px 0px;
+        padding: 1vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15vw;
+    }
+    .box5 img {
+        width: 25vw;
+    }
+    .boxtext5{
+        align-items: center;
+    }
+    .boxtext5 p{
+        font-size: 2.5vw;
+    }
+
+    .boxtext5 h3{
+        font-size: 4vw;
+    }
+
+    /* box 7 */
+    .box6{
+        display: flex;
+        height: 0px 0px;
+        padding: 1vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15vw;
+    }
+    .box6 img {
+        width: 25vw;
+    }
+    .boxtext6{
+        align-items: center;
+    }
+    .boxtext6 p{
+        font-size: 2.5vw;
+    }
+
+    .boxtext6 h3{
+        font-size: 4vw;
+    }
+
+    /* box 8 */
+    .box7{
+        display: flex;
+        height: 0px 0px;
+        padding: 1vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15vw;
+    }
+    .box7 img {
+        width: 25vw;
+    }
+    .boxtext7{
+        align-items: center;
+    }
+    .boxtext7 p{
+        font-size: 2.5vw;
+    }
+
+    .boxtext7 h3{
+        font-size: 4vw;
+    }
+
+    /* Contact Page Edit */
+    .formbox h2 {
+        font-size: 4vw;
+        margin-left: -3vw;
+    }
+    .forminput p {
+        font-size: 3vw;
+    }
+    .forminput input{
+        font-size: 3vw;
+        width: 45vw;
+    }
+    .forminput textarea{
+        width: 45vw;
+        height: 40vw;
+    }
+    .btn2{
+        width: 15vw;
+        margin-top: 1vw;
+    }
+
+    .formbox{
+        align-items: center;
+        background-color: antiquewhite;
+        height: 80vh;
+    }
+
+    /* Article1 Edit */
+
+   
+    .center h2 {
+        margin-top: 3vw;
+        font-size: 5vw;
+    }
+    .center img {
+        width: 36vw;
+        margin-top: 1vw;
+    }
+
+    .article-content p{
+        font-size: 3vw;
+    }
+
+    .article-content h4{
+        font-size: 3.8vw;
+    }
+
+    .article-content ul li{
+        font-size: 2.8vw;
+    }
+}

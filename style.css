@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@300&family=Overpass&family=Padauk&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+}
+
+.left img{
+    display: inline;
+    width: 100px;
+    cursor: pointer;
+}
+
+.left ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.left ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 2vw;
+    font-family: 'Overpass', sans-serif;
+}
+
+.left ul li a:hover{
+    text-decoration: none;
+    color: #ff9b22;
+    margin: 2vw;
+    font-family: 'Overpass', sans-serif;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    padding-right: 3vw;
+}
+
+.btn{
+    margin: 1vw;
+    border: 2px solid #ff9b22;
+    background: none;
+    border-radius: 16px;
+    padding: 8px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    margin: 1vw;
+    border: 2px solid #ff9b22;
+    background: #ff9b22;
+    border-radius: 16px;
+    padding: 8px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.search-box{
+    border: 2px solid #ff9b22;
+    background: none;
+    border-radius: 16px;
+    padding: 8px;
+    font-size: 10px;
+}
+
+.content{
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3vw;
+    position: relative;
+    z-index: 1;
+}
+
+.content::after{
+    content: "";
+    background-image: url('img/11.svg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.09;
+}
+
+.con-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1vw;
+}
+
+.con-left h2{
+    font-family: 'Padauk', sans-serif;
+}
+
+.con-left p{
+    font-family: 'Mali', cursive;
+}
+
+.con-right{
+    display: flex;
+    margin-top: 4vw;
+    align-items: center;
+    padding-right: 1vw;
+    padding-bottom: 3vw;
+}
+
+.con-right img{
+    width: 30vw;
+    border: 2px solid #ff9b22;
+    border-radius: 14vw;
+    z-index: 1;
+}
+
+.article{
+    background-color: antiquewhite;
+}
+
+.article h2{
+    padding: 1vw;
+}
+
+/* Box 1 Editing */
+
+.box{
+    display: flex;
+    height: 14vw;
+    padding: 1vw;
+}
+
+.box img{
+    width: 15vw;
+}
+
+.boxtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3vw;
+}
+
+.boxtext h3{
+    font-family: 'Padauk', sans-serif;
+}
+
+.boxtext h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.boxtext h3 a:hover{
+    text-decoration: none;
+    color:#ff9b22;
+}
+
+.boxtext p{
+    font-family: 'Mali', cursive;
+}
+
+/* Box 2 Editing */
+
+.box0{
+    display: flex;
+    height: 14vw;
+    padding: 1vw;
+    padding-top: 3vw;
+}
+
+.box0 img{
+    width: 15vw;
+    height: max-content;
+}
+
+.boxtext0{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3vw;
+    padding-bottom: 4vw;
+}
+
+.boxtext0 h3{
+    font-family: 'Padauk', sans-serif;
+}
+
+.boxtext0 h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.boxtext0 h3 a:hover{
+    text-decoration: none;
+    color:#ff9b22;
+}
+
+.boxtext0 p{
+    font-family: 'Mali', cursive;
+}
+
+/* Box 2 Editing */
+
+.box1{
+    display: flex;
+    height: 14vw;
+    padding: 1vw;
+    padding-bottom: 2vw;
+}
+
+.box1 img{
+    width: 15vw;
+    height: max-content;
+}
+
+.boxtext1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3vw;
+    padding-bottom: 4vw;
+}
+
+.boxtext1 h3{
+    font-family: 'Padauk', sans-serif;
+}
+
+.boxtext1 h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.boxtext1 h3 a:hover{
+    text-decoration: none;
+    color:#ff9b22;
+}
+
+.boxtext1 p{
+    font-family: 'Mali', cursive;
+}
+
+/* Box 3 Editing */
+
+.box2{
+    display: flex;
+    height: 10vw;
+    padding: 1vw;
+    padding-bottom: 2vw;
+}
+
+.box2 img{
+    width: 15vw;
+    height: max-content;
+}
+
+.boxtext2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3vw;
+    padding-bottom: 2vw;
+}
+
+.boxtext2 h3{
+    font-family: 'Padauk', sans-serif;
+}
+
+.boxtext2 h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.boxtext2 h3 a:hover{
+    text-decoration: none;
+    color:#ff9b22;
+}
+
+.boxtext2 p{
+    font-family: 'Mali', cursive;
+}
+
+.foot{
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(218, 177, 124);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    margin-top: 1vw;
+}
+
+.foot p{
+    font-family: 'Overpass', sans-serif;
+    font-size: 1vw;
+}
+
+.foot span{
+    font-family: 'Overpass', sans-serif;
+    font-size: 1vw;
+}
+
+.formbox{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formbox h2{
+    font-family: 'Overpass', sans-serif;
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+
+.forminput{
+    padding-top: 1vw;
+}
+.forminput p{
+    font-family: 'Padauk', sans-serif;
+}
+
+.forminput input{
+    width: 35vw;
+    font-family: 'Padauk', sans-serif;
+    border: 1px solid #ff9b22;
+    padding-left: 0.5vw;
+}
+
+.forminput textarea{
+    width: 35vw;
+    font-family: 'Padauk', sans-serif;
+    border: 1px solid #ff9b22;
+    padding-left: 0.5vw;
+}
+
+.btn2{
+    margin-top: 0.5vw;
+    border: 2px solid #ff9b22;
+    background: none;
+    border-radius: 16px;
+    padding: 8px;
+    font-size: 10px;
+    cursor: pointer;
+    width: 7vw;
+}
+
+.btn2:hover{
+    margin-top: 0.5vw;
+    border: 2px solid #ff9b22;
+    background: #ff9b22;
+    border-radius: 16px;
+    padding: 8px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.box3{
+    display: flex;
+    height: 10vw;
+    padding: 1vw;
+    padding-bottom: 6vw;
+}
+
+.box3 img{
+    width: 15vw;
+    height: max-content;
+}
+
+.boxtext2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3vw;
+    padding-bottom: 2vw;
+}
+
+/* Box 4 Edit */
+
+.box4{
+    display: flex;
+    height: 14vw;
+    padding: 1vw;
+    padding-bottom: 2vw;
+}
+
+.box4 img{
+    width: 15vw;
+    height: max-content;
+}
+
+.boxtext4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3vw;
+    padding-bottom: 5.5vw;
+}
+
+.boxtext4 h3{
+    font-family: 'Padauk', sans-serif;
+}
+
+.boxtext4 h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.boxtext4 h3 a:hover{
+    text-decoration: none;
+    color:#ff9b22;
+}
+
+.boxtext4 p{
+    font-family: 'Mali', cursive;
+}
+/* Box 4 Edit */
+
+.box7{
+    display: flex;
+    /* height: 14vw; */
+    padding: 1vw;
+    /* padding-bottom: 2vw; */
+}
+
+.box7 img{
+    width: 15vw;
+    height: max-content;
+}
+
+.boxtext7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3vw;
+    padding-bottom: 2vw;
+}
+
+.boxtext7 h3{
+    font-family: 'Padauk', sans-serif;
+}
+
+.boxtext7 h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.boxtext7 h3 a:hover{
+    text-decoration: none;
+    color:#ff9b22;
+}
+
+.boxtext7 p{
+    font-family: 'Mali', cursive;
+}
+/* Box 6 Edit */
+
+.box6{
+    display: flex;
+    height: 14vw;
+    padding: 1vw;
+    padding-bottom: 2vw;
+}
+
+.box6 img{
+    width: 15vw;
+    height: max-content;
+}
+
+.boxtext6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3vw;
+    padding-bottom: 5vw;
+}
+
+.boxtext6 h3{
+    font-family: 'Padauk', sans-serif;
+}
+
+.boxtext6 h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.boxtext6 h3 a:hover{
+    text-decoration: none;
+    color:#ff9b22;
+}
+
+.boxtext6 p{
+    font-family: 'Mali', cursive;
+}
+
+/* Box 5 Edit */
+
+.box5{
+    display: flex;
+    height: 14vw;
+    padding: 1vw;
+    /* padding-bottom: 2vw; */
+}
+
+.box5 img{
+    width: 15vw;
+    height: max-content;
+}
+
+.boxtext5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3vw;
+    padding-bottom: 7vw;
+}
+
+.boxtext5 h3{
+    font-family: 'Padauk', sans-serif;
+}
+
+.boxtext5 h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+.boxtext5 h3 a:hover{
+    text-decoration: none;
+    color:#ff9b22;
+}
+
+.boxtext5 p{
+    font-family: 'Mali', cursive;
+}
+
+.article1{
+    background-color: antiquewhite;
+}
+
+.center h2{
+    margin-top: 1vw;
+    font-size: 2.8vw;
+}
+
+.center img{
+    width: 30vw;
+    margin-top: 1vw;
+    
+}
+
+.article-content{
+    padding: 3vw;
+}
+
+.article-content p{
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+    font-family: 'Padauk', sans-serif;
+    font-size: 1.7vw;
+}
+
+.article-content ul{
+    margin-left: 4vw;
+}
+.article-content ul li{
+    font-family: 'Padauk', sans-serif;
+    font-size: 1.7vw;
+}
+
+.article-content h4{
+    font-family: 'Overpass', sans-serif;
+    font-size: 2vw;
+    margin-top: 5vw;
+}
